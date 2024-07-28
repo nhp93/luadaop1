@@ -4,15 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'title': '#fff',
-        'grey': '#808080'
+        title: "#fff",
+        grey: "#808080",
       },
       fontFamily: {
-        ubuntu: ['Ubuntu', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif'],
+        ubuntu: ["Ubuntu", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
-
+};
