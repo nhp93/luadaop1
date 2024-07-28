@@ -723,9 +723,12 @@ video {
   margin: auto;
 }
 
-.mx-\[43\.8984px\] {
-  margin-left: 43.8984px;
-  margin-right: 43.8984px;
+.m-\[7\.2px\] {
+  margin: 7.2px;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .my-\[43\.8984px\] {
@@ -733,12 +736,17 @@ video {
   margin-bottom: 43.8984px;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.my-\[20\.1px\] {
+  margin-top: 20.1px;
+  margin-bottom: 20.1px;
 }
 
 .mb-\[22\.464px\] {
   margin-bottom: 22.464px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-\[44\.928px\] {
@@ -852,6 +860,14 @@ video {
   height: 100lvh;
 }
 
+.h-\[84px\] {
+  height: 84px;
+}
+
+.min-h-lvh {
+  min-height: 100lvh;
+}
+
 .w-4\/5 {
   width: 80%;
 }
@@ -872,8 +888,16 @@ video {
   width: weird-and-invalid;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-lvw {
   width: 100lvw;
+}
+
+.w-\[84px\] {
+  width: 84px;
 }
 
 .flex-shrink {
@@ -1398,9 +1422,23 @@ video {
   justify-items: stretch;
 }
 
+.gap-\[4\.3px\] {
+  gap: 4.3px;
+}
+
 .gap-x-\[10px\] {
   -moz-column-gap: 10px;
        column-gap: 10px;
+}
+
+.gap-x-\[4\.3px\] {
+  -moz-column-gap: 4.3px;
+       column-gap: 4.3px;
+}
+
+.gap-x-\[8\.6px\] {
+  -moz-column-gap: 8.6px;
+       column-gap: 8.6px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1856,15 +1894,6 @@ video {
   border-color: rgb(128 128 128 / var(--tw-border-opacity));
 }
 
-.border-\[\#fff\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-transparent {
-  border-color: transparent;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -2015,6 +2044,16 @@ video {
   padding-bottom: 11.232px;
 }
 
+.px-\[19\.5px\] {
+  padding-left: 19.5px;
+  padding-right: 19.5px;
+}
+
+.py-\[6\.5px\] {
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2071,20 +2110,12 @@ video {
   vertical-align: super;
 }
 
-.font-ubuntu {
-  font-family: Ubuntu, sans-serif;
-}
-
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.text-\[3\.5vw\] {
-  font-size: 3.5vw;
+.font-ubuntu {
+  font-family: Ubuntu, sans-serif;
 }
 
 .text-\[22\.464px\] {
@@ -2093,6 +2124,18 @@ video {
 
 .text-\[24px\] {
   font-size: 24px;
+}
+
+.text-\[3\.5vw\] {
+  font-size: 3.5vw;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -2165,10 +2208,6 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-}
-
-.tracking-normal {
-  letter-spacing: 0em;
 }
 
 .tracking-\[2px\] {
@@ -2639,14 +2678,6 @@ video {
   text-align: center;
 }
 
-.group\/ldn:hover .group-hover\/ldn\:border-\[1px\] {
-  border-width: 1px;
-}
-
-.group\/ld:hover .group-hover\/ld\:border-\[1px\] {
-  border-width: 1px;
-}
-
 .group\/ldn:hover .group-hover\/ldn\:border-\[4px\] {
   border-width: 4px;
 }
@@ -2656,14 +2687,59 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.group\/ld:hover .group-hover\/ld\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:m-\[14\.4px\] {
+    margin: 14.4px;
+  }
+
+  .md\:m-\[1vw\] {
+    margin: 1vw;
+  }
+
+  .md\:my-\[43\.8984px\] {
+    margin-top: 43.8984px;
+    margin-bottom: 43.8984px;
+  }
+
+  .md\:h-\[187\.79px\] {
+    height: 187.79px;
+  }
+
+  .md\:w-\[187\.79px\] {
+    width: 187.79px;
+  }
+
+  .md\:gap-x-\[10px\] {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+
+  .md\:px-\[33\.696px\] {
+    padding-left: 33.696px;
+    padding-right: 33.696px;
+  }
+
+  .md\:py-\[11\.232px\] {
+    padding-top: 11.232px;
+    padding-bottom: 11.232px;
+  }
+
+  .md\:text-\[24px\] {
+    font-size: 24px;
+  }
+
+  .md\:text-\[3\.5vw\] {
+    font-size: 3.5vw;
+  }
+
+  .md\:text-\[22\.464px\] {
+    font-size: 22.464px;
   }
 }
 
